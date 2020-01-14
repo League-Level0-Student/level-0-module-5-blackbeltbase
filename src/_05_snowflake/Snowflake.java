@@ -39,8 +39,8 @@ for(int i = 0; i<=6; i++) {
 		r.setPenColor(Color.red);
 	}
 	for(int j = 0; j<=6; j++) {
-		r.turn(-60);
 		r.move(50);
+		r.turn(-60);
 	}
 	r.setPenColor(Color.black);
 }
